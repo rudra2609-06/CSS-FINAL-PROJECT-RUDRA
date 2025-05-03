@@ -1,0 +1,206 @@
+:root{ 
+	--header-font:"Playfair Display", serif;
+	--nav-font:"Inter", sans-serif;
+	--default-font:"Roboto", sans-serif;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+a{
+	display: inline-block;
+	color: #FFF;
+	margin-right: 1rem;
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img{
+	display: block;
+	width: 100%;
+}
+
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-6{
+	width: 50%;
+}
+
+
+/* flex properties */
+
+.d-flex{
+	display: flex;
+}
+
+.justify-between{
+	justify-content: space-between;
+}
+
+.justify-center{
+	justify-content: center;
+}
+
+.align-center{
+	align-items: center;
+}
+
+/* header styling start  */
+
+header{
+	background-color: #f9f5ed;
+	padding: 40px;
+}
+
+header h2{
+	font-family: var(--header-font);
+	font-size: 3rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+}
+
+.navbar ul li a {
+	font-family: var(--nav-font);
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #676661;
+	padding-left:1rem;
+}
+
+/* header styling ends  */
+
+/* about styling starts  */
+
+.about{
+	margin-left: 7rem;
+}
+
+.about-content{
+	padding-top: 3rem;
+	padding-left: 25rem;
+	/* border: 2px solid red; */
+}
+
+.about > .row{
+	align-items: stretch;
+}
+
+.about-content h2{
+	font-family: var(--header-font);
+	font-size: 1.8rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.about-content p{
+	font-family: var(--default-font);
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #1b1a19;
+	padding-bottom: 20px;
+}
+
+.about-icon{
+	position: relative;
+	
+}
+
+.about-icon a{
+	font-size: 1.2rem;
+	font-weight: 400;
+	font-family: var(--default-font);
+	color: blue;
+	padding-left:5px;
+}
+
+.about-icon i{
+	font-size: 1.5rem;
+	padding-top: 20px;
+}
+
+.contact_me{
+	padding-top: 3rem;
+}
+
+.contact_me h2{
+	font-family: var(--header-font);
+	font-size: 1.8rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.contact_me label{
+	color: #141413;
+	font-size: 1rem;
+	font-family: var(--default-font);
+	font-weight: 400;
+}
+
+.contact_me input{
+	border-radius: 3px;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.contact_me  .btn{
+	padding:5px 10px;
+	cursor: pointer;
+	background-color: #fff;
+	color: #1e1c1c;
+	font-family: var(--default-font);
+}
+
+/* about styling ends  */
+
+/* hero styling starts  */
+
+.hero img{
+	padding: 2rem 0;
+	object-fit: contain;
+	height: 700px;
+}
+/* hero styling ends */
+
+/* footer styling starts  */
+
+footer{
+	background-color: #f6f1ea;
+	padding: 20px;
+}
+
+
+footer p{
+	font-family: var(--default-font);
+	font-size: 1.2rem;
+	color: #1b1b1a	;
+}
+
+footer a{
+	color: blue;
+	font-family: var(--nav-font);
+	font-size: 1rem;
+}
+
+
+/* footer styling ends */
